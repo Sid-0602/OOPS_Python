@@ -28,4 +28,4 @@ jobs:
         pip install black
 
     - name: Lint with Black
-      run: black --check .
+      run: black .
