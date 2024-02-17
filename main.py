@@ -26,9 +26,8 @@ class Item:
 
 item1 = Item("Phone",134.67,5) #instance of a class.
 print(f"The total bill for {item1.name} = ", item1.calculate_total_price()) #the method when called always passes instance when this method is called.
+item1.applyDiscount()
+print(f"Price per item after discount = " , item1.price)
 
 item2 = Item("Laptop",1233.90,3)
-item3 = Item("Cable", 10, 5)
-item4 = Item("Mouse", 50, 5)
-item5 = Item("Keyboard", 75, 5)
-
+print(f"The total bill for {item2.name} = ",item2.calculate_total_price())
